@@ -1,0 +1,58 @@
+const products = [
+  {
+    id: 1,
+    name: "iPhone 16 Pro Max",
+    brand: "Apple",
+    category: "Phones",
+    price: "₦1,850,000",
+    image: "https://picsum.photos/600/400?random=1",
+    badge: "New",
+  },
+  {
+    id: 2,
+    name: "HP EliteBook 840 G8",
+    brand: "HP",
+    category: "Laptops",
+    price: "₦620,000",
+    image: "https://picsum.photos/600/400?random=2",
+    badge: "Hot Deal",
+  },
+  {
+    id: 3,
+    name: "Samsung Galaxy S25 Ultra",
+    brand: "Samsung",
+    category: "Phones",
+    price: "₦2,050,000",
+    image: "https://picsum.photos/600/400?random=3",
+    badge: "Best Seller",
+  },
+  {
+    id: 4,
+    name: "Apple Watch Series 10",
+    brand: "Apple",
+    category: "Accessories",
+    price: "₦850,000",
+    image: "https://picsum.photos/600/400?random=4",
+    badge: "New",
+  },
+  {
+    id: 5,
+    name: "AirPods Pro 2",
+    brand: "Apple",
+    category: "Accessories",
+    price: "₦420,000",
+    image: "https://picsum.photos/600/400?random=5",
+    badge: "Hot Deal",
+  },
+  {
+    id: 6,
+    name: "Lenovo ThinkPad X1",
+    brand: "Lenovo",
+    category: "Laptops",
+    price: "₦980,000",
+    image: "https://picsum.photos/600/400?random=6",
+    badge: "Premium",
+  },
+];
+
+export default products;
