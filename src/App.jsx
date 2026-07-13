@@ -1,16 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
 export default function App() {
   return (
-    <div
-      style={{
-        background: "black",
-        color: "white",
-        minHeight: "100vh",
-        padding: "50px",
-        fontSize: "32px",
-      }}
-    >
-      <h1>🎉 TAM'S HUB is working!</h1>
-      <p>If you can see this on Vercel, the deployment is fine.</p>
+    <div className="bg-black min-h-screen">
+      <Navbar />
+
+      <h1 style={{ color: "white", textAlign: "center", padding: "50px" }}>
+        Navbar Works!
+      </h1>
     </div>
   );
 }
