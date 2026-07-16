@@ -9,9 +9,9 @@ import {
   FaTimes,
 } from "react-icons/fa";
 
-import { useTheme } from "../context/ThemeContext";
-import { useCart } from "../context/CartContext";
-import { useWishlist } from "../context/WishlistContext";
+import { useTheme } from "../Context/ThemeContext";
+import { useCart } from "../Context/CartContext";
+import { useWishlist } from "../Context/WishlistContext";
 
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();

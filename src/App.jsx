@@ -15,7 +15,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
-import { useTheme } from "./context/ThemeContext";
+import { useTheme } from "./Context/ThemeContext";
 
 export default function App() {
   const { theme } = useTheme();

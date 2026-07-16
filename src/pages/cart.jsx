@@ -1,6 +1,6 @@
 import { FaMinus, FaPlus, FaTrash, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../Context/CartContext";
 
 export default function Cart() {
   const {

@@ -7,8 +7,8 @@ import {
   FaCheckCircle,
 } from "react-icons/fa";
 
-import { useWishlist } from "../context/WishlistContext";
-import { useCart } from "../context/CartContext";
+import { useWishlist } from "../Context/WishlistContext";
+import { useCart } from "../Context/CartContext";
 
 export default function Wishlist() {
   const {

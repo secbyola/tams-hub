@@ -7,8 +7,8 @@ import {
   FaRegStar,
 } from "react-icons/fa";
 
-import { useCart } from "../context/CartContext";
-import { useWishlist } from "../context/WishlistContext";
+import { useCart } from "../Context/CartContext";
+import { useWishlist } from "../Context/WishlistContext";
 
 export default function ProductCard({
   id,
